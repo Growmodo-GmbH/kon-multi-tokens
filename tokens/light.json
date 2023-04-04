@@ -1,0 +1,597 @@
+{
+  "theme": {
+    "bg": {
+      "surface": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#f9fafb",
+        "type": "color"
+      },
+      "subtle-2x": {
+        "value": "#fcfcfd",
+        "type": "color",
+        "description": "For light surface contrasts, such as in My List row items where there is surface on surface, usually one is white over the subtle 2x. "
+      },
+      "muted": {
+        "value": "#f8f9fc",
+        "type": "color"
+      },
+      "muted-hover": {
+        "value": "#f2f4f7",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#fcfcfd",
+        "type": "color"
+      },
+      "canvas": {
+        "value": "#f2f4f7",
+        "type": "color"
+      },
+      "field": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "accent": {
+      "default": {
+        "value": "#528bff",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#eff4ff",
+        "type": "color"
+      },
+      "subtle-2x": {
+        "value": "#d1e0ff",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#84adff",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#d1e0ff",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "#155eef",
+        "type": "color"
+      },
+      "hover": {
+        "value": "#2970ff",
+        "type": "color"
+      },
+      "on-accent": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "fg": {
+      "default": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "#d0d5dd",
+        "type": "color",
+        "description": "For text placeholders inside fileds. Mostly for search fields. Can also apeear in a few disabled state elements, like text."
+      },
+      "muted": {
+        "value": "#6c6f8f",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#6c6f8f",
+        "type": "color"
+      },
+      "subtle-2x": {
+        "value": "#667085",
+        "type": "color",
+        "description": "For darker items like icons in buttons with or without text. Also, used in secondary level descriptive text that needs a subtle contrast against titles."
+      },
+      "subtle-3x": {
+        "value": "#8083a3",
+        "type": "color",
+        "description": "For contrast against text. For icons fills/borders. It's also used coupled with a list item text. See Inputs Dropdown for examples."
+      },
+      "on-disabled": {
+        "value": "#475467",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#eaecf0",
+        "type": "color"
+      },
+      "strong": {
+        "value": "#344054",
+        "type": "color",
+        "description": "For important text instances colors, list items, table cell texts,  in resting state."
+      },
+      "strongest": {
+        "value": "#171721",
+        "type": "color",
+        "description": "For important text instances colors, list items, table cell texts, table headers, titles, in hover and selected states."
+      }
+    },
+    "warning": {
+      "default": {
+        "value": "#dc6803",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#fef0c7",
+        "type": "color"
+      },
+      "subtle-2x": {
+        "value": "#fffaeb",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#fec84b",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "#b54708",
+        "type": "color"
+      },
+      "emphasis-2x": {
+        "value": "#93370d",
+        "type": "color"
+      },
+      "on-warning": {
+        "value": "#b54708",
+        "type": "color"
+      }
+    },
+    "info": {
+      "default": {
+        "value": "#8098f9",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#e0eaff",
+        "type": "color"
+      },
+      "subtle-2x": {
+        "value": "#eef4ff",
+        "type": "color"
+      },
+      "subtle-3x": {
+        "value": "#F5F3FF",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#a4bcfd",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "#4e4efb",
+        "type": "color"
+      },
+      "emphasis-2x": {
+        "value": "#2d31a6",
+        "type": "color",
+        "description": "Since emphasis is a strong color, the 2x should be stronger then its predecessor."
+      },
+      "emphasis-hover": {
+        "value": "#5b45e0",
+        "type": "color"
+      },
+      "on-info": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "error": {
+      "default": {
+        "value": "#d92d20",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#fee4e2",
+        "type": "color"
+      },
+      "subtle-2x": {
+        "value": "#fef3f2",
+        "type": "color"
+      },
+      "muted": {
+        "value": "#f97066",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "#b42318",
+        "type": "color"
+      },
+      "emphasis-2x": {
+        "value": "#912018",
+        "type": "color"
+      },
+      "hover": {
+        "value": "#b42318",
+        "type": "color",
+        "description": "Hover style for CTAs in error messages. Also used in higher level titles for contrast. "
+      },
+      "disabled": {
+        "value": "#fecdca",
+        "type": "color",
+        "description": "For disabled error messages."
+      },
+      "on-error": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "success": {
+      "default": {
+        "value": "#12b76a",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#ecfdf3",
+        "type": "color",
+        "description": "For cta background and success feedback surfaces."
+      },
+      "subtle-2x": {
+        "value": "#d1fadf",
+        "type": "color",
+        "description": "For cta background and success feedback surfaces that need more contract by still should be subtle."
+      },
+      "muted": {
+        "value": "#f6fef9",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "#32d583",
+        "type": "color"
+      },
+      "on-success": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "on-success-mono": {
+        "value": "#027a48",
+        "type": "color",
+        "description": "To achieve a monochromatic look. This dark success works on sutble and subtle--2x surfaces."
+      }
+    },
+    "input": {
+      "background": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "text": {
+        "value": "#171721",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "#667085",
+        "type": "color"
+      },
+      "border": {
+        "default": {
+          "value": "#d0d5dd",
+          "type": "color",
+          "description": "Border used mostly for gray buttons."
+        },
+        "strong": {
+          "value": "#98a2b3",
+          "type": "color"
+        },
+        "strong-2x": {
+          "value": "#475467",
+          "type": "color",
+          "description": "For icons that are on gray surfaces, so contrast has the correct accessability."
+        },
+        "subtle-1x": {
+          "value": "#f2f4f7",
+          "type": "color",
+          "description": "Border used mostly for dividers of sections and tables."
+        },
+        "subtle-2x": {
+          "value": "#eaecf0",
+          "type": "color",
+          "description": "Can also be a fill for stepper items or applied to other items to keep tokens' list smaller."
+        },
+        "alert-1": {
+          "value": "#22ccee",
+          "type": "color",
+          "description": "For positive incentive alerts. Great for upgrading reminders to evoke good feelings instead of fear. "
+        },
+        "disabled": {
+          "value": "#f2f4f7",
+          "type": "color"
+        },
+        "focused": {
+          "value": "#ebefff",
+          "type": "color",
+          "description": "Similar to effects token theme/shadow/Focused/default, this is for strokes on focused state items that were initially created with a border instead of the shadow effect. "
+        }
+      },
+      "fg": {
+        "disabled": {
+          "value": "#d0d5dd",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#f2f4f7",
+        "type": "color"
+      }
+    }
+  },
+  "shadow": {
+    "xs": {
+      "value": {
+        "color": "#1f293714",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "sm": {
+      "value": [
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0
+        },
+        {
+          "color": "#1018280f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "md": {
+      "value": [
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": -2
+        },
+        {
+          "color": "#1018280f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": -2
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "lg": {
+      "value": [
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 12,
+          "blur": 16,
+          "spread": -4
+        },
+        {
+          "color": "#1018280d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 6,
+          "spread": -2
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "xl": {
+      "value": [
+        {
+          "color": "#10182808",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 8,
+          "spread": -4
+        },
+        {
+          "color": "#10182814",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 20,
+          "blur": 24,
+          "spread": -4
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "2xl": {
+      "value": {
+        "color": "#10182840",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 24,
+        "blur": 48,
+        "spread": -12
+      },
+      "type": "boxShadow"
+    },
+    "3xl": {
+      "value": {
+        "color": "#10182833",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 32,
+        "blur": 64,
+        "spread": -12
+      },
+      "type": "boxShadow"
+    },
+    "Focused": {
+      "default": {
+        "value": [
+          {
+            "color": "#1018280d",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0
+          },
+          {
+            "color": "#ebefff",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Input & buttons feedback color"
+      },
+      "error": {
+        "value": [
+          {
+            "color": "#1018280d",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0
+          },
+          {
+            "color": "#fee4e2",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Input feedback color."
+      },
+      "success": {
+        "value": [
+          {
+            "color": "#c7f2cd",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0
+          },
+          {
+            "color": "#c7f2cd",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Input feedback color"
+      },
+      "gray": {
+        "value": [
+          {
+            "color": "#1018280d",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0
+          },
+          {
+            "color": "#f2f4f7",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
+  },
+  "bar": {
+    "primary": {
+      "selected": {
+        "value": {
+          "color": "#3e7eff",
+          "type": "innerShadow",
+          "x": 2,
+          "y": 0,
+          "blur": 0,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      }
+    }
+  },
+  "selected": {
+    "item-primary": {
+      "value": {
+        "color": "#3e7eff",
+        "type": "innerShadow",
+        "x": 2,
+        "y": 0,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "item-white": {
+      "value": {
+        "color": "#ffffff",
+        "type": "innerShadow",
+        "x": 2,
+        "y": 0,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "item-orange": {
+      "value": {
+        "color": "#ff692e",
+        "type": "innerShadow",
+        "x": 2,
+        "y": 0,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "item-blood-orange": {
+      "value": {
+        "color": "#f6c46a",
+        "type": "innerShadow",
+        "x": 2,
+        "y": 0,
+        "blur": 0,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    }
+  }
+}
