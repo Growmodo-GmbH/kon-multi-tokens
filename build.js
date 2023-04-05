@@ -58,10 +58,23 @@ StyleDictionaryPackage.registerTransform({
   transitive: true,
   matcher: token => token.type === 'typography',
   transformer: (token) => {
-    const {value} = token
+    const {value} = token;
+    var fontWeights = {
+      "Thin": 100,
+      "Extra Light": 200,
+      "Light": 300,
+      "Normal": 400,
+      "Regular": 400,
+      "Medium": 500,
+      "Semi Bold": 600,
+      "Bold": 700,
+      "Extra Bold": 800,
+      "Black": 900,
+      "Extra Black": 950,
+    }
     return `font-family: ${value.fontFamily};
-      font-weight: ${value.fontWeight};
-      line-height: ${value.lineHeight};
+      font-weight: ${fontWeights[""+value.fontWeight]};
+      line-height: ${value.lineHeight}px;
       font-size: ${value.fontSize}px;
       letter-spacing: ${value.letterSpacing};
       line-height: ${value.paragraphSpacing}px;

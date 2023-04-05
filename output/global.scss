@@ -265,8 +265,8 @@
   --paragraph-spacing-15: 72px;
 	.display-2xl-regular{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 90;
+      font-weight: 400;
+      line-height: 90px;
       font-size: 72px;
       letter-spacing: -2%;
       line-height: 72px;
@@ -276,8 +276,8 @@
 	}
 	.display-2xl-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 90;
+      font-weight: 500;
+      line-height: 90px;
       font-size: 72px;
       letter-spacing: -2%;
       line-height: 72px;
@@ -287,8 +287,8 @@
 	}
 	.display-2xl-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 90;
+      font-weight: 600;
+      line-height: 90px;
       font-size: 72px;
       letter-spacing: -2%;
       line-height: 72px;
@@ -298,8 +298,8 @@
 	}
 	.display-2xl-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 90;
+      font-weight: 700;
+      line-height: 90px;
       font-size: 72px;
       letter-spacing: -2%;
       line-height: 72px;
@@ -309,8 +309,8 @@
 	}
 	.display-xl-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 72;
+      font-weight: 400;
+      line-height: 72px;
       font-size: 60px;
       letter-spacing: -2%;
       line-height: 60px;
@@ -320,8 +320,8 @@
 	}
 	.display-xl-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 72;
+      font-weight: 500;
+      line-height: 72px;
       font-size: 60px;
       letter-spacing: -2%;
       line-height: 60px;
@@ -331,8 +331,8 @@
 	}
 	.display-xl-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 72;
+      font-weight: 600;
+      line-height: 72px;
       font-size: 60px;
       letter-spacing: -2%;
       line-height: 60px;
@@ -342,8 +342,8 @@
 	}
 	.display-xl-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 72;
+      font-weight: 700;
+      line-height: 72px;
       font-size: 60px;
       letter-spacing: -2%;
       line-height: 60px;
@@ -353,8 +353,8 @@
 	}
 	.display-lg-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 60;
+      font-weight: 400;
+      line-height: 60px;
       font-size: 48px;
       letter-spacing: -2%;
       line-height: 48px;
@@ -364,8 +364,8 @@
 	}
 	.display-lg-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 60;
+      font-weight: 500;
+      line-height: 60px;
       font-size: 48px;
       letter-spacing: -2%;
       line-height: 48px;
@@ -375,8 +375,8 @@
 	}
 	.display-lg-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 60;
+      font-weight: 600;
+      line-height: 60px;
       font-size: 48px;
       letter-spacing: -2%;
       line-height: 48px;
@@ -386,8 +386,8 @@
 	}
 	.display-lg-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 60;
+      font-weight: 700;
+      line-height: 60px;
       font-size: 48px;
       letter-spacing: -2%;
       line-height: 48px;
@@ -397,8 +397,8 @@
 	}
 	.display-md-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 44;
+      font-weight: 400;
+      line-height: 44px;
       font-size: 36px;
       letter-spacing: -2%;
       line-height: 36px;
@@ -408,8 +408,8 @@
 	}
 	.display-md-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 44;
+      font-weight: 500;
+      line-height: 44px;
       font-size: 36px;
       letter-spacing: -2%;
       line-height: 36px;
@@ -419,8 +419,8 @@
 	}
 	.display-md-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 44;
+      font-weight: 600;
+      line-height: 44px;
       font-size: 36px;
       letter-spacing: -2%;
       line-height: 36px;
@@ -430,8 +430,8 @@
 	}
 	.display-md-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 44;
+      font-weight: 700;
+      line-height: 44px;
       font-size: 36px;
       letter-spacing: -2%;
       line-height: 36px;
@@ -441,8 +441,8 @@
 	}
 	.display-sm-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 38;
+      font-weight: 400;
+      line-height: 38px;
       font-size: 30px;
       letter-spacing: 0%;
       line-height: 30px;
@@ -452,8 +452,8 @@
 	}
 	.display-sm-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 38;
+      font-weight: 500;
+      line-height: 38px;
       font-size: 30px;
       letter-spacing: 0%;
       line-height: 30px;
@@ -463,8 +463,8 @@
 	}
 	.display-sm-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 38;
+      font-weight: 600;
+      line-height: 38px;
       font-size: 30px;
       letter-spacing: 0%;
       line-height: 30px;
@@ -474,8 +474,8 @@
 	}
 	.display-sm-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 38;
+      font-weight: 700;
+      line-height: 38px;
       font-size: 30px;
       letter-spacing: 0%;
       line-height: 30px;
@@ -485,8 +485,8 @@
 	}
 	.display-sm-medium-italic{ 
 		font-family: Inter;
-      font-weight: Medium Italic;
-      line-height: 44;
+      font-weight: undefined;
+      line-height: 44px;
       font-size: 30px;
       letter-spacing: 0%;
       line-height: 38px;
@@ -496,8 +496,8 @@
 	}
 	.display-sm-bold-koncert{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 38;
+      font-weight: 700;
+      line-height: 38px;
       font-size: 30px;
       letter-spacing: -2.5;
       line-height: 30px;
@@ -507,8 +507,8 @@
 	}
 	.display-xs-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 32;
+      font-weight: 400;
+      line-height: 32px;
       font-size: 24px;
       letter-spacing: 0%;
       line-height: 24px;
@@ -518,8 +518,8 @@
 	}
 	.display-xs-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 32;
+      font-weight: 500;
+      line-height: 32px;
       font-size: 24px;
       letter-spacing: 0%;
       line-height: 24px;
@@ -529,8 +529,8 @@
 	}
 	.display-xs-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 32;
+      font-weight: 600;
+      line-height: 32px;
       font-size: 24px;
       letter-spacing: 0%;
       line-height: 24px;
@@ -540,8 +540,8 @@
 	}
 	.display-xs-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 32;
+      font-weight: 700;
+      line-height: 32px;
       font-size: 24px;
       letter-spacing: 0%;
       line-height: 24px;
@@ -551,8 +551,8 @@
 	}
 	.display-xs-medium-italic{ 
 		font-family: Inter;
-      font-weight: Medium Italic;
-      line-height: 36;
+      font-weight: undefined;
+      line-height: 36px;
       font-size: 24px;
       letter-spacing: 0%;
       line-height: 32px;
@@ -562,8 +562,8 @@
 	}
 	.text-xl-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 30;
+      font-weight: 400;
+      line-height: 30px;
       font-size: 20px;
       letter-spacing: 0%;
       line-height: 20px;
@@ -573,8 +573,8 @@
 	}
 	.text-xl-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 30;
+      font-weight: 500;
+      line-height: 30px;
       font-size: 20px;
       letter-spacing: 0%;
       line-height: 20px;
@@ -584,8 +584,8 @@
 	}
 	.text-xl-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 30;
+      font-weight: 600;
+      line-height: 30px;
       font-size: 20px;
       letter-spacing: 0%;
       line-height: 20px;
@@ -595,8 +595,8 @@
 	}
 	.text-xl-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 30;
+      font-weight: 700;
+      line-height: 30px;
       font-size: 20px;
       letter-spacing: 0%;
       line-height: 20px;
@@ -606,8 +606,8 @@
 	}
 	.text-xl-medium-italic{ 
 		font-family: Inter;
-      font-weight: Medium Italic;
-      line-height: 30;
+      font-weight: undefined;
+      line-height: 30px;
       font-size: 20px;
       letter-spacing: 0%;
       line-height: 20px;
@@ -617,8 +617,8 @@
 	}
 	.text-xl-normal-underlined{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 30;
+      font-weight: 400;
+      line-height: 30px;
       font-size: 20px;
       letter-spacing: 0%;
       line-height: 0px;
@@ -628,8 +628,8 @@
 	}
 	.text-lg-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 28;
+      font-weight: 400;
+      line-height: 28px;
       font-size: 18px;
       letter-spacing: 0%;
       line-height: 18px;
@@ -639,8 +639,8 @@
 	}
 	.text-lg-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 28;
+      font-weight: 600;
+      line-height: 28px;
       font-size: 18px;
       letter-spacing: 0%;
       line-height: 18px;
@@ -650,8 +650,8 @@
 	}
 	.text-lg-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 28;
+      font-weight: 500;
+      line-height: 28px;
       font-size: 18px;
       letter-spacing: 0%;
       line-height: 18px;
@@ -661,8 +661,8 @@
 	}
 	.text-lg-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 28;
+      font-weight: 700;
+      line-height: 28px;
       font-size: 18px;
       letter-spacing: 0%;
       line-height: 18px;
@@ -672,8 +672,8 @@
 	}
 	.text-lg-medium-italic{ 
 		font-family: Inter;
-      font-weight: Medium Italic;
-      line-height: 28;
+      font-weight: undefined;
+      line-height: 28px;
       font-size: 18px;
       letter-spacing: 0%;
       line-height: 18px;
@@ -683,8 +683,8 @@
 	}
 	.text-lg-medium-underlined{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 28;
+      font-weight: 500;
+      line-height: 28px;
       font-size: 18px;
       letter-spacing: 0%;
       line-height: 28px;
@@ -694,8 +694,8 @@
 	}
 	.text-md-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 24;
+      font-weight: 400;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -705,8 +705,8 @@
 	}
 	.text-md-normal-uppercase{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 24;
+      font-weight: 400;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -716,8 +716,8 @@
 	}
 	.text-md-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 24;
+      font-weight: 500;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -727,8 +727,8 @@
 	}
 	.text-md-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 24;
+      font-weight: 600;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -738,8 +738,8 @@
 	}
 	.text-md-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 24;
+      font-weight: 700;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -749,8 +749,8 @@
 	}
 	.text-md-medium-italic{ 
 		font-family: Inter;
-      font-weight: Medium Italic;
-      line-height: 24;
+      font-weight: undefined;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -760,8 +760,8 @@
 	}
 	.text-md-normal-underlined{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 24;
+      font-weight: 400;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 24px;
@@ -771,8 +771,8 @@
 	}
 	.text-md-medium-underlined{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 24;
+      font-weight: 500;
+      line-height: 24px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 24px;
@@ -782,8 +782,8 @@
 	}
 	.text-sm-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 20;
+      font-weight: 400;
+      line-height: 20px;
       font-size: 14px;
       letter-spacing: 0%;
       line-height: 14px;
@@ -793,8 +793,8 @@
 	}
 	.text-sm-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 20;
+      font-weight: 500;
+      line-height: 20px;
       font-size: 14px;
       letter-spacing: 0%;
       line-height: 14px;
@@ -804,8 +804,8 @@
 	}
 	.text-sm-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 20;
+      font-weight: 600;
+      line-height: 20px;
       font-size: 14px;
       letter-spacing: 0%;
       line-height: 14px;
@@ -815,8 +815,8 @@
 	}
 	.text-sm-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 20;
+      font-weight: 700;
+      line-height: 20px;
       font-size: 14px;
       letter-spacing: 0%;
       line-height: 14px;
@@ -826,8 +826,8 @@
 	}
 	.text-sm-normal-underlined{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 20;
+      font-weight: 400;
+      line-height: 20px;
       font-size: 14px;
       letter-spacing: 0%;
       line-height: 14px;
@@ -837,8 +837,8 @@
 	}
 	.text-sm-semi-bold-mini-chip{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 18;
+      font-weight: 500;
+      line-height: 18px;
       font-size: 16px;
       letter-spacing: 0%;
       line-height: 16px;
@@ -848,8 +848,8 @@
 	}
 	.text-xs-normal{ 
 		font-family: Inter;
-      font-weight: Regular;
-      line-height: 18;
+      font-weight: 400;
+      line-height: 18px;
       font-size: 12px;
       letter-spacing: 0%;
       line-height: 12px;
@@ -859,8 +859,8 @@
 	}
 	.text-xs-medium{ 
 		font-family: Inter;
-      font-weight: Medium;
-      line-height: 18;
+      font-weight: 500;
+      line-height: 18px;
       font-size: 12px;
       letter-spacing: 0%;
       line-height: 12px;
@@ -870,8 +870,8 @@
 	}
 	.text-xs-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 18;
+      font-weight: 600;
+      line-height: 18px;
       font-size: 12px;
       letter-spacing: 0%;
       line-height: 12px;
@@ -881,8 +881,8 @@
 	}
 	.text-xs-bold{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 18;
+      font-weight: 700;
+      line-height: 18px;
       font-size: 12px;
       letter-spacing: 0%;
       line-height: 12px;
@@ -892,8 +892,8 @@
 	}
 	.text-xxs-semibold{ 
 		font-family: Inter;
-      font-weight: Semi Bold;
-      line-height: 18;
+      font-weight: 600;
+      line-height: 18px;
       font-size: 10px;
       letter-spacing: 0;
       line-height: 1px;
@@ -925,8 +925,8 @@
   --gradient-orange-left-to-right-hover: linear-gradient(110deg, #fc4004 0%, #fd9245 100%);
 	.text-micro{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 18;
+      font-weight: 700;
+      line-height: 18px;
       font-size: 9px;
       letter-spacing: 0;
       line-height: 1px;
@@ -936,8 +936,8 @@
 	}
 	.text-xsm-uppercase-buttons{ 
 		font-family: Inter;
-      font-weight: Bold;
-      line-height: 18;
+      font-weight: 700;
+      line-height: 18px;
       font-size: 10px;
       letter-spacing: 0;
       line-height: 1px;
