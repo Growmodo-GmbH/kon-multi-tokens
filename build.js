@@ -1,6 +1,6 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
-// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
+// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED S
 
 StyleDictionaryPackage.registerFormat({
     name: 'scss/variables',
