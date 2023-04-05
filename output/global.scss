@@ -901,18 +901,10 @@
       text-transform: uppercase;
       text-decoration: none; 
 	}
-	.text-case-uppercase{ 
-		uppercase; 
-	}
-	.text-case-none{ 
-		none; 
-	}
-	.text-decoration-none{ 
-		none; 
-	}
-	.text-decoration-underline{ 
-		underline; 
-	}
+  --text-case-uppercase: uppercase;
+  --text-case-none: none;
+  --text-decoration-none: none;
+  --text-decoration-underline: underline;
   --brand-midnight: #0c2854;
   --brand-dark-cobalt-blue: #0c1b37;
   --brand-dark-blue: #0f172a;

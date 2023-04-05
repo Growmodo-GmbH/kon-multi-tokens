@@ -5,9 +5,8 @@ const StyleDictionaryPackage = require('style-dictionary');
 StyleDictionaryPackage.registerFormat({
   name: 'scss/variables',
   formatter: function (dictionary, config) {
-    let asd = dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n');
-    let qwe = dictionary.allProperties.map(function(prop, i) {
-        if(prop.name.includes("display") || prop.name.includes("text")){
+    let format = dictionary.allProperties.map(function(prop, i) {
+        if(prop.type == "typography"){
           return `\t.${prop.name}{ \n\t\t${prop.value}; \n\t}`;
         }
         else{
@@ -16,7 +15,7 @@ StyleDictionaryPackage.registerFormat({
     }).join('\n');
 
       return `${this.selector} {
-        ${qwe}
+        ${format}
       }`
   }
 });  
