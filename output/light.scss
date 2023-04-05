@@ -58,7 +58,9 @@
   --theme-success-on-success: #ffffff;
   --theme-success-on-success-mono: #027a48;
   --theme-input-background: #ffffff;
-  --theme-input-text: #171721;
+	.theme-input-text{ 
+		#171721; 
+	}
   --theme-input-placeholder: #667085;
   --theme-input-border-default: #d0d5dd;
   --theme-input-border-strong: #98a2b3;
