@@ -2,7 +2,7 @@
   "theme": {
     "bg": {
       "surface": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       },
       "subtle": {
@@ -31,7 +31,7 @@
         "type": "color"
       },
       "field": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       }
     },
@@ -65,13 +65,13 @@
         "type": "color"
       },
       "on-accent": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       }
     },
     "fg": {
       "default": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       },
       "placeholder": {
@@ -181,7 +181,7 @@
         "type": "color"
       },
       "on-info": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       }
     },
@@ -221,7 +221,7 @@
         "description": "For disabled error messages."
       },
       "on-error": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       }
     },
@@ -249,7 +249,7 @@
         "type": "color"
       },
       "on-success": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       },
       "on-success-mono": {
@@ -260,7 +260,7 @@
     },
     "input": {
       "background": {
-        "value": "#ffffff",
+        "value": "#f1f1f1",
         "type": "color"
       },
       "text": {
