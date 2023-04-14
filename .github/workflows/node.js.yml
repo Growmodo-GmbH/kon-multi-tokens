@@ -16,7 +16,7 @@ jobs:
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer tokens.json tokens/global.json global
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/light.json global,light,theme global
+      - run: npx token-transformer tokens.json tokens/light.json global,light,theme,portal global,portal
       # Create a dark theme, exclude the global tokens
       - run: npx token-transformer tokens.json tokens/dark.json global,dark,theme global
       # Create a portal theme, exclude the global tokens
