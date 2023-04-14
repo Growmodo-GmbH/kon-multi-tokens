@@ -27,28 +27,28 @@
       },
       "primary": {
         "default": {
-          "value": "#42307d",
+          "value": "#00192f",
           "type": "color",
           "description": "For the darkest surfaces."
         },
         "subtle": {
-          "value": "#d6bbfb",
+          "value": "#547ca0",
           "type": "color"
         },
         "subtle-2x": {
-          "value": "#e9d7fe",
+          "value": "#8aa5be",
           "type": "color"
         },
         "subtle-3x": {
-          "value": "#f4ebff",
+          "value": "#b0c2d3",
           "type": "color"
         },
         "subtle-4x": {
-          "value": "#f9f5ff",
+          "value": "#e6ebf1",
           "type": "color"
         },
         "muted": {
-          "value": "#b692f6",
+          "value": "#33628d",
           "type": "color"
         }
       }
@@ -101,7 +101,7 @@
         "type": "color"
       },
       "on-accent": {
-        "value": "#6941c6",
+        "value": "#002a50",
         "type": "color"
       }
     },
@@ -158,31 +158,31 @@
       },
       "primary": {
         "default": {
-          "value": "#6941c6",
+          "value": "#002a50",
           "type": "color"
         },
         "subtle": {
-          "value": "#b692f6",
+          "value": "#33628d",
           "type": "color",
           "description": "For second-level supporting text."
         },
         "subtle-2x": {
-          "value": "#d6bbfb",
+          "value": "#547ca0",
           "type": "color",
           "description": "For second-level supporting text."
         },
         "subtle-3x": {
-          "value": "#f4ebff",
+          "value": "#b0c2d3",
           "type": "color",
           "description": "For second-level supporting text."
         },
         "subtle-4x": {
-          "value": "#f9f5ff",
+          "value": "#e6ebf1",
           "type": "color",
           "description": "For second-level supporting text."
         },
         "muted": {
-          "value": "#e9d7fe",
+          "value": "#8aa5be",
           "type": "color",
           "description": "For second-level supporting text."
         }
@@ -360,7 +360,7 @@
           "type": "color"
         },
         "focused": {
-          "value": "#d6bbfb",
+          "value": "#547ca0",
           "type": "color"
         },
         "error": {
@@ -369,7 +369,7 @@
         },
         "semi": {
           "disabled": {
-            "value": "#d6bbfb",
+            "value": "#547ca0",
             "type": "color"
           }
         }
@@ -396,7 +396,7 @@
       },
       "semi": {
         "focused-primary": {
-          "value": "#e9d7fe",
+          "value": "#8aa5be",
           "type": "color"
         }
       }
@@ -410,11 +410,11 @@
     "semi": {
       "bg": {
         "default": {
-          "value": "#53389e",
+          "value": "#00203e",
           "type": "color"
         },
         "canvas": {
-          "value": "#6941c6",
+          "value": "#002a50",
           "type": "color",
           "description": "For the primary 700 surfaces. "
         }
@@ -551,7 +551,7 @@
       "xs-focused-primary": {
         "value": [
           {
-            "color": "#b692f6",
+            "color": "#33628d",
             "type": "dropShadow",
             "x": 0,
             "y": 0,
