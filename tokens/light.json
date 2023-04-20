@@ -478,7 +478,7 @@
       "type": "boxShadow"
     }
   },
-  "Shadow": {
+  "light-shadow": {
     "xs": {
       "value": {
         "color": "#1018280d",
@@ -491,31 +491,87 @@
       "type": "boxShadow"
     },
     "sm": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#1018280f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0
+        }
+      ],
       "type": "boxShadow"
     },
     "md": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#1018280f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": -2
+        },
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 8,
+          "spread": -2
+        }
+      ],
       "type": "boxShadow"
     },
     "lg": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#10182808",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 6,
+          "spread": -2
+        },
+        {
+          "color": "#10182814",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 12,
+          "blur": 16,
+          "spread": -4
+        }
+      ],
       "type": "boxShadow"
     },
     "xl": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#10182808",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 8,
+          "blur": 8,
+          "spread": -4
+        },
+        {
+          "color": "#10182814",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 20,
+          "blur": 24,
+          "spread": -4
+        }
+      ],
       "type": "boxShadow"
     },
     "2xl": {
@@ -541,10 +597,24 @@
       "type": "boxShadow"
     },
     "xs focused 4px primary-100": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#ebf1ff",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#1018280d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
       "type": "boxShadow"
     },
     "Semi": {
@@ -571,33 +641,103 @@
       }
     },
     "xs focused 4px gray-100": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#f2f4f7",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#1018280d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
       "type": "boxShadow"
     },
     "xs focused 4px error-100": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#fee4e2",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#1018280d",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        }
+      ],
       "type": "boxShadow"
     },
     "sm focused 4px primary-100": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]",
-        "2": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#f4ebff",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#1018280f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0
+        }
+      ],
       "type": "boxShadow"
     },
     "sm focused 4px gray-100": {
-      "value": {
-        "0": "[object Object]",
-        "1": "[object Object]",
-        "2": "[object Object]"
-      },
+      "value": [
+        {
+          "color": "#f2f4f7",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": 4
+        },
+        {
+          "color": "#1018280f",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": "#1018281a",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0
+        }
+      ],
       "type": "boxShadow"
     },
     "Portfolio mockup": {
